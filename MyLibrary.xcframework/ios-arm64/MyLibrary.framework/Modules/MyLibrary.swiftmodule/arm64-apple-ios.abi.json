@@ -1,0 +1,140 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "MyLibrary",
+    "printedName": "MyLibrary",
+    "children": [
+      {
+        "kind": "TypeDecl",
+        "name": "MySDK",
+        "printedName": "MySDK",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MySDK",
+                "printedName": "MyLibrary.MySDK",
+                "usr": "s:9MyLibrary0A3SDKC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9MyLibrary0A3SDKC6sharedACvpZ",
+            "mangledName": "$s9MyLibrary0A3SDKC6sharedACvpZ",
+            "moduleName": "MyLibrary",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MySDK",
+                    "printedName": "MyLibrary.MySDK",
+                    "usr": "s:9MyLibrary0A3SDKC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9MyLibrary0A3SDKC6sharedACvgZ",
+                "mangledName": "$s9MyLibrary0A3SDKC6sharedACvgZ",
+                "moduleName": "MyLibrary",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "printHello",
+            "printedName": "printHello()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9MyLibrary0A3SDKC10printHelloyyF",
+            "mangledName": "$s9MyLibrary0A3SDKC10printHelloyyF",
+            "moduleName": "MyLibrary",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "printName",
+            "printedName": "printName(name:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9MyLibrary0A3SDKC9printName4nameySS_tF",
+            "mangledName": "$s9MyLibrary0A3SDKC9printName4nameySS_tF",
+            "moduleName": "MyLibrary",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:9MyLibrary0A3SDKC",
+        "mangledName": "$s9MyLibrary0A3SDKC",
+        "moduleName": "MyLibrary",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}
